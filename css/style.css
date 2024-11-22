@@ -127,7 +127,7 @@ section {
     background: linear-gradient(135deg, #945f51, #b58d7e);
 }
 
-/* header section start */
+/* header section stars */
 .header{
     padding: 2rem 9%;
     position: -webkit-sticky;
@@ -254,7 +254,7 @@ section {
 #closer:hover{
     color: #9e7464;
 }
-/* navbar start */
+/* navbar stars */
 
 .navbar{
     position: fixed;
@@ -303,7 +303,7 @@ section {
 /* navbar end */
 
 
-/* shopping cart start */
+/* shopping cart stars */
 
 .shopping-cart{
     position: fixed;
@@ -409,7 +409,7 @@ section {
 /* shopping cart end */
 
 
-/* login form start */
+/* login form stars */
 
 .login-form{
     position: fixed;
@@ -542,7 +542,7 @@ section {
     }
 }
 
-/* home page start */
+/* home page stars */
 .home{
     position: relative;
     margin: 2%;
@@ -690,7 +690,7 @@ section {
 /* home page end */
 
 
-/* shop page start */
+/* shop page stars */
 
     /* ---- categories ---- */
 .category .box-container{
@@ -793,13 +793,51 @@ section {
     color: #e1cec7;
 }
 
+.products .box-container .box .image{
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+}
 
+.products .box-container .box .image img{
+    height: 30rem;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; 
+}
+
+.products .box-container .box .content{
+    padding: 1.5rem 2rem;
+}
+
+.products .box-container .box .content .price{
+    font-size: 1.7rem;
+    color: #b58d7e;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2rem;
+    color: #5e473e;
+    padding: .5rem 0;
+}
+
+.products .box-container .box .content .stars{
+    font-size: 1.7rem;
+}
+
+.products .box-container .box .content .stars i{
+    color: gold;
+}
+
+.products .box-container .box .content .stars span{
+    color: #b58d7e;
+}
 
 
 /* shop page end */
 
 
-/* about page start */
+/* about page stars */
 
     /* ---- about section ---- */
 
@@ -808,22 +846,22 @@ section {
 /* about page end */
 
 
-/* team page start */
+/* team page stars */
 
 /* team page end */
 
 
-/* blog page start */
+/* blog page stars */
 
 /* blog page end */
 
 
-/* contact page start */
+/* contact page stars */
 
 /* contact page end */
 
 
-/* footer start */
+/* footer stars */
 .footer{
     margin: 2%;
     border-radius: 3rem;
@@ -891,6 +929,6 @@ section {
 /* footer end */
 
 
-/* responsive start */
+/* responsive stars */
 
 /* responsive end */
