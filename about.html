@@ -21,166 +21,159 @@
 <body>
 
     <!-- header section starts  -->
-    <header class="header">
-        <a href="home.html" class="logo"><i class="ri-store-2-line"> MDOffice </i></a>
-        <form action="#" class="search-form">
-            <input type="search" placeholder="search here..." id="search-box">
-            <label for="search-box" class="ri-search-line"></label>
-        </form>
-
-        <div class="icons">
-            <div id="menu-btn" class="ri-menu-line"></div>
-            <div id="search-btn" class="ri-search-line"></div>
-            <div id="cart-btn" class="ri-shopping-cart-line"></div>
-            <div id="login-btn" class="ri-user-line"></div>
-        </div>
+    <header class="header"> 
+        <a href="home.html" class="logo"><i class="ri-store-2-line"> Риан </i></a> 
+        <form action="#" class="search-form"> 
+            <input type="search" placeholder="поиск здесь..." id="search-box"> 
+            <label for="search-box" class="ri-search-line"></label> 
+        </form> 
+    
+        <div class="icons"> 
+            <div id="menu-btn" class="ri-menu-line"></div> 
+            <div id="search-btn" class="ri-search-line"></div> 
+            <div id="cart-btn" class="ri-shopping-cart-line"></div> 
+            <div id="login-btn" class="ri-user-line"></div> 
+        </div> 
     </header>
-<!-- header section ends  -->
+    
+    <!-- header section ends  -->
 
 
-<!-- closer btn  -->
+    <!-- closer btn  -->
+    
+    <div id="closer" class="ri-close-line"></div>
 
-<div id="closer" class="ri-close-line"></div>
-
-<!-- navbar start  -->
-    <nav class="navbar">
-        <a href="home.html">home</a>
-        <a href="shop.html">shop</a>
-        <a href="about.html">about</a>
-        <a href="team.html">team</a>
-        <a href="blog.html">blog</a>
-        <a href="contact.html">contect</a>
+    <!-- navbar start  -->
+    <nav class="navbar"> 
+        <a href="home.html">главная</a> 
+        <a href="shop.html">магазин</a> 
+        <a href="about.html">о нас</a> 
     </nav>
-<!-- navbar end  -->
+    
+    <!-- navbar end  -->
 
 
-<!-- shopping cart start  -->
-    <div class="shopping-cart">
+    <!-- shopping cart start  -->
+    <div class="shopping-cart"> 
+ 
+        <div class="box"> 
+            <i class="ri-close-line close-icon"></i> 
+            <img src="image/cart-img-1.jpg" alt=""> 
+            <div class="content"> 
+                <h3>современная мебель</h3> 
+                <span class="quantity"> 1 </span> 
+                <span class="multiply"> x </span> 
+                <span class="price"> $140.00 </span> 
+            </div> 
+        </div> 
+        <div class="box"> 
+            <i class="ri-close-line close-icon"></i> 
+            <img src="image/cart-img-2.jpg" alt=""> 
+            <div class="content"> 
+                <h3>современная мебель</h3> 
+                <span class="quantity"> 1 </span> 
+                <span class="multiply"> x </span> 
+                <span class="price"> $140.00 </span> 
+            </div> 
+        </div> 
+        <div class="box"> 
+            <i class="ri-close-line close-icon"></i> 
+            <img src="image/cart-img-3.jpg" alt=""> 
+            <div class="content"> 
+                <h3>современная мебель</h3> 
+                <span class="quantity"> 1 </span> 
+                <span class="multiply"> x </span> 
+                <span class="price"> $140.00 </span> 
+            </div> 
+        </div> 
+        <div class="box"> 
+            <i class="ri-close-line close-icon"></i> 
+            <img src="image/cart-img-4.jpg" alt=""> 
+            <div class="content"> 
+                <h3>современная мебель</h3> 
+                <span class="quantity"> 1 </span> 
+                <span class="multiply"> x </span> 
+                <span class="price"> $140.00 </span> 
+            </div> 
+        </div> 
+        <h3 class="total"> итог: <span>$560.00</span></h3> 
+        <a href="#" class="btn">оформить заказ</a> 
+    </div> 
+        
+    <!-- shopping cart end  -->
 
-        <div class="box">
-            <i class="ri-close-line close-icon"></i>
-            <img src="image/cart-img-1.jpg" alt="">
-            <div class="content">
-                <h3>modern furniture</h3>
-                <span class="quantity"> 1 </span>
-                <span class="multiply"> x </span>
-                <span class="price"> $140.00 </span>
-            </div>
-        </div>
-        <div class="box">
-            <i class="ri-close-line close-icon"></i>
-            <img src="image/cart-img-2.jpg" alt="">
-            <div class="content">
-                <h3>modern furniture</h3>
-                <span class="quantity"> 1 </span>
-                <span class="multiply"> x </span>
-                <span class="price"> $140.00 </span>
-            </div>
-        </div>
-        <div class="box">
-            <i class="ri-close-line close-icon"></i>
-            <img src="image/cart-img-3.jpg" alt="">
-            <div class="content">
-                <h3>modern furniture</h3>
-                <span class="quantity"> 1 </span>
-                <span class="multiply"> x </span>
-                <span class="price"> $140.00 </span>
-            </div>
-        </div>
-        <div class="box">
-            <i class="ri-close-line close-icon"></i>
-            <img src="image/cart-img-4.jpg" alt="">
-            <div class="content">
-                <h3>modern furniture</h3>
-                <span class="quantity"> 1 </span>
-                <span class="multiply"> x </span>
-                <span class="price"> $140.00 </span>
-            </div>
-        </div>
-        <h3 class="total"> total: <span>$560.00</span></h3>
-        <a href="#" class="btn">checkout cart</a>
+
+    <!-- login form start  -->
+        
+    <div class="login-form"> 
+        <form action="#"> 
+            <h3>форма входа</h3> 
+            <input type="email" placeholder="введите ваш email" class="box"> 
+            <input type="password" placeholder="введите ваш пароль" class="box"> 
+            <div class="remember"> 
+                <input type="checkbox" class="remember-me"> 
+                <label for="remember-me">запомнить меня</label> 
+            </div> 
+            <input type="submit" value="войти сейчас" class="btn"> 
+            <p>забыли пароль? <a href="#">нажмите здесь</a></p> 
+            <p>нет аккаунта? <a href="#">создайте сейчас</a></p> 
+        </form> 
     </div>
-    
-<!-- shopping cart end  -->
 
-
-<!-- login form start  -->
-    
-<div class="login-form">
-    <form action="#">
-        <h3>login form</h3>
-        <input type="email" placeholder="enter your email" class="box">
-        <input type="password" placeholder="enter your password" class="box">
-        <div class="remember">
-            <input type="checkbox" class="remember-me">
-            <label for="remember-me">remember me</label>
-        </div>
-        <input type="submit" value="login now" class="btn">
-        <p>forget password? <a href="#">click here</a></p>
-        <p>don't have an account? <a href="#">create now</a></p>
-    </form>
-</div>
-
-<!-- login form end  -->
+    <!-- login form end  -->
 
 
     <!-- heading section start -->
-    <section class="heading">
-        <h3>our shop</h3>
-        <p><a href="home.html">home</a>/ <span>about</span></p>
+    <section class="heading"> 
+        <h3>Наш магазин</h3> 
+        <p><a href="home.html">Главная</a>/ <span>О нас</span></p> 
     </section>
+    
     <!-- heading section end -->
 
 
     <!-- about section start -->
-    <section class="about">
-        <div class="image">
-            <img src="image/about-img.jpg" alt="">
-        </div>
-        <div class="content">
-            <span>welcome to our shop</span>
-            <h3>we make your home more astonishing</h3>
-            <p>Lorem ipsum dolor sit amrt consectetur adipisicing elit. Ullam officiis,
-            reiciendis veniam incidunt
-                arcitecto quam velit dolorum exercitationem cum aliqua, ab quas dicta
-                dolores ad earum quasis.</p>
-            <p>Lorem ipsum dolor sit amrt consectetur adipisicing elit. Sapiente adipisci
-            totam, nam voluptates quis
-                delectus. Ea quo repudiandae.
-            </p>
-            <a href="#" class="btn">read more</a>
-        </div>
-    </section>
+    <section class="about">  
+        <div class="image">  
+            <img src="image/about-img.jpg" alt="">  
+        </div>  
+        <div class="content">  
+            <span>добро пожаловать в наш магазин</span>  
+            <h3>мы делаем ваш дом более уютным</h3>  
+            <p>Наша компания основана с целью создавать уникальные предметы интерьера, которые придают вашему дому особый стиль и уют. Мы стремимся использовать только высококачественные материалы и современные технологии, чтобы каждый продукт отвечал самым высоким стандартам. С 2010 года мы работаем на рынке и зарекомендовали себя как надежный партнер для многих клиентов.</p>
+            <p>Мы гордимся тем, что наша команда состоит из талантливых дизайнеров и мастеров, которые стремятся к совершенству в каждом проекте. Наша миссия — сделать ваш дом не только красивым, но и комфортным. Присоединяйтесь к числу наших довольных клиентов и позвольте нам помочь вам создать идеальное пространство для жизни!</p>
+            
+            <a href="#" class="btn">читать далее</a>  
+        </div>  
+</section>
     <!-- about section end -->
 
 
     <!-- services section start -->
-    <section class="services">
-        <h1 class="title"> <span>our services</span> <a href="#">view all >></a></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="image/serv-1.png" alt="">
-                <h3>product selling</h3>
-                <p>Lorem isum, dolor sit amet consectetur adipisicing elit. Reiciendis,
-                fugiat</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-            <div class="box">
-                <img src="image/serv-2.png" alt="">
-                <h3>product designing</h3>
-                <p>Lorem isum, dolor sit amet consectetur adipisicing elit. Reiciendis,
-                fugiat</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-            <div class="box">
-                <img src="image/serv-3.png" alt="">
-                <h3>24 / 7 support</h3>
-                <p>Lorem isum, dolor sit amet consectetur adipisicing elit. Reiciendis,
-                fugiat</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-        </div>
+    <section class="services"> 
+        <h1 class="title"> <span>Наши услуги</span> <a href="#">Посмотреть все >></a></h1> 
+        <div class="box-container"> 
+            <div class="box"> 
+                <img src="image/serv-1.png" alt="Продажа товаров"> 
+                <h3>Продажа товаров</h3> 
+                <p>Мы предлагаем широкий ассортимент товаров, который удовлетворит любые ваши потребности. Наша команда всегда готова помочь вам с выбором и консультацией.</p> 
+                <a href="#" class="btn">Узнать больше</a> 
+            </div> 
+            <div class="box"> 
+                <img src="image/serv-2.png" alt="Дизайн продукции"> 
+                <h3>Дизайн продукции</h3> 
+                <p>Наши дизайнеры создают оригинальные и функциональные решения, которые помогут выделить ваш продукт на рынке. Мы индивидуально подходим к каждому проекту.</p> 
+                <a href="#" class="btn">Узнать больше</a> 
+            </div> 
+            <div class="box"> 
+                <img src="image/serv-3.png" alt="Круглосуточная поддержка"> 
+                <h3>Круглосуточная поддержка</h3> 
+                <p>Наша команда поддержки доступна 24/7, чтобы ответить на все ваши вопросы и предоставить необходимую помощь в любое время. Мы всегда рядом!</p> 
+                <a href="#" class="btn">Узнать больше</a> 
+            </div> 
+        </div> 
     </section>
+    
     <!-- services section end -->
 
 
@@ -189,45 +182,41 @@
 
 
     <!-- footer section start  -->
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Quick links</h3>
-                <a href="home.html"> <i class="ri-arrow-right-line"></i> home </a>
-                <a href="shop.html"> <i class="ri-arrow-right-line"></i> shop </a>
-                <a href="about.html"> <i class="ri-arrow-right-line"></i> about </a>
-                <a href="team.html"> <i class="ri-arrow-right-line"></i> team </a>
-                <a href="blog.html"> <i class="ri-arrow-right-line"></i> blog </a>
-                <a href="contact.html"> <i class="ri-arrow-right-line"></i> contact </a>
-            </div>
-            <div class="box">
-                <h3>Extra links</h3>
-                <a href="#"> <i class="ri-arrow-right-line"></i> my order </a>
-                <a href="#"> <i class="ri-arrow-right-line"></i> my wishline </a>
-                <a href="#"> <i class="ri-arrow-right-line"></i> my account </a>
-                <a href="#"> <i class="ri-arrow-right-line"></i> my favorite </a>
-                <a href="#"> <i class="ri-arrow-right-line"></i> team of user </a>
-            </div>
-            <div class="box">
-                <h3>Extra links</h3>
-                <a href="#"> <i class="ri-facebook-fill"></i> facebook </a>
-                <a href="#"> <i class="ri-twitter-fill"></i> twitter </a>
-                <a href="#"> <i class="ri-instagram-fill"></i> instagram </a>
-                <a href="#"> <i class="ri-linkedin-box-fill"></i> linkedin </a>
-                <a href="#"> <i class="ri-pinterest-fill"></i> pinterest </a>
-            </div>
-
-            <div class="box">
-                <h3>Newsletter</h3>
-                <p>Subscribe for latest updates</p>
-                <form action="#">
-                    <input type="email" placeholder="enter your email" id="">
-                    <input type="submit" value="subscribe" class="btn">
-                </form>
-            </div>
-        </div>
+    <section class="footer"> 
+        <div class="box-container"> 
+            <div class="box"> 
+                <h3>Быстрые ссылки</h3> 
+                <a href="home.html"> <i class="ri-arrow-right-line"></i> главная </a> 
+                <a href="shop.html"> <i class="ri-arrow-right-line"></i> магазин </a> 
+                <a href="about.html"> <i class="ri-arrow-right-line"></i> о нас </a> 
+            </div> 
+            <div class="box"> 
+                <h3>Дополнительные ссылки</h3> 
+                <a href="#"> <i class="ri-arrow-right-line"></i> мой заказ </a> 
+                <a href="#"> <i class="ri-arrow-right-line"></i> мой список желаемого </a> 
+                <a href="#"> <i class="ri-arrow-right-line"></i> мой аккаунт </a> 
+                <a href="#"> <i class="ri-arrow-right-line"></i> мои избранные </a> 
+                <a href="#"> <i class="ri-arrow-right-line"></i> команда пользователей </a> 
+            </div> 
+            <div class="box"> 
+                <h3>Социальные сети</h3> 
+                <a href="#"> <i class="ri-facebook-fill"></i> facebook </a> 
+                <a href="#"> <i class="ri-twitter-fill"></i> twitter </a> 
+                <a href="#"> <i class="ri-instagram-fill"></i> instagram </a> 
+                <a href="#"> <i class="ri-linkedin-box-fill"></i> linkedin </a> 
+                <a href="#"> <i class="ri-pinterest-fill"></i> pinterest </a> 
+            </div> 
+ 
+            <div class="box"> 
+                <h3>Рассылка</h3> 
+                <p>Подпишитесь на последние обновления</p> 
+                <form action="#"> 
+                    <input type="email" placeholder="введите ваш email" id=""> 
+                    <input type="submit" value="подписаться" class="btn"> 
+                </form> 
+            </div> 
+        </div> 
     </section>
-
 
     <!-- footer section end  -->
 

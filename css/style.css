@@ -591,7 +591,9 @@ section {
     font-size: 1.5rem;
     color: #b58d7e;
     padding: .5rem 0;
+    text-transform: none;
 }
+
 
 .home .slides-container .slide .content .image{
     -webkit-box-flex: 1;
@@ -888,6 +890,7 @@ section {
     color: #b58d7e;
     padding: 1rem 0;
     line-height: 2;
+    text-transform: none;
 }
     /* ---- services section ---- */
 .services .box-container{
